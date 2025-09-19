@@ -1,16 +1,26 @@
-## Hi there 👋
+# Hi, I'm Umesh 👋  
 
-<!--
-**umesh-nethmina/Umesh-Nethmina** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 IT Undergraduate at **University of Moratuwa**  
+💻 Interested in **Software Development | IoT | Data Science**  
+🚀 Currently learning **Java | Python | Web Development**  
+📂 Building my project portfolio here on GitHub  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Technologies & Tools  
+- Languages: Java, Python, JavaScript  
+- Web: HTML, CSS, React (learning)  
+- Database: MySQL, SQLite  
+- Tools: Git, GitHub, VS Code  
+
+---
+
+## 📌 Current Projects  
+- 🌐 [Hello World Website](https://github.com/umesh-nethmina/HelloWorldWebsite.git)  
+- 📱 Simple Calculator App (coming soon)  
+
+---
+
+## 📫 Connect with Me  
+- LinkedIn: [Your LinkedIn Link](https://linkedin.com/in/umesh-nethmina-b76582306)  
+- Email: umeshnethmina118@email.com
