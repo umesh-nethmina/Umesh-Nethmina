@@ -16,8 +16,8 @@
 ---
 
 ## 📌 Current Projects  
-- 🌐 [Hello World Website](https://github.com/umesh-nethmina/HelloWorldWebsite.git)  
-- 📱 Simple Calculator App (coming soon)  
+- 🌐 [Hello World Website](https://github.com/umesh-nethmina/HelloWorldWebsite.git)
+- 🌐 Smart-Environmental-Monitoring-System(https://github.com/umesh-nethmina/Smart-Environmental-Monitoring-System.git) 
 
 ---
 
