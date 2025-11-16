@@ -15,6 +15,7 @@ Tools & Platforms: Git, GitHub, VS Code
 📝 TO-DO App (Group Project)
 
 A collaborative full-stack to-do management application featuring authentication, CRUD operations, and a clean UI.
+
 🔗 GitHub Repo: https://github.com/Dula0268/TO-DO-App.git
 
 
