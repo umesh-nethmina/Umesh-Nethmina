@@ -12,6 +12,11 @@ Tools & Platforms: Git, GitHub, VS Code
 
 📌 Featured Projects
 
+📝 TO-DO App (Group Project)
+
+A collaborative full-stack to-do management application featuring authentication, CRUD operations, and a clean UI.
+🔗 GitHub Repo: https://github.com/Dula0268/TO-DO-App.git
+
 
 🌐 Smart Environmental Monitoring System
 🔗 https://github.com/umesh-nethmina/Smart-Environmental-Monitoring-System.git
