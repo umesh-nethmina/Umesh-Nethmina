@@ -42,17 +42,6 @@
 
 ---
 
-<div align="center">
-
-## 💬 Let's Connect!
-
-Feel free to reach out for collaborations or just a friendly chat about technology!
-
-**📧 Email:** umeshnethmina118@email.com  
-**💼 LinkedIn:** [umesh-nethmina](https://linkedin.com/in/umesh-nethmina-b76582306)
-
----
-
 ⭐️ *From [umesh-nethmina](https://github.com/umesh-nethmina)*
 
 </div>
