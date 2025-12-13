@@ -1,32 +1,61 @@
- Hi, I'm Umesh Nethmina
- Undergraduate in Information Technology
- University of Moratuwa, Sri Lanka
+<div align="center">
 
-My Projects
+# 👋 Hi there, I'm Umesh Nethmina
 
-📁 TO-DO App (Group Project)
+### 🎓 Undergraduate in Information Technology
+**University of Moratuwa, Sri Lanka**
 
-🔗 GitHub Repo: https://github.com/Dula0268/TO-DO-App.git
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/umesh-nethmina-b76582306)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:umeshnethmina118@email.com)
 
-📁 Smart Environmental Monitoring System
+</div>
 
-🔗 https://github.com/umesh-nethmina/Smart-Environmental-Monitoring-System.git
+---
 
-📁 BAKERY MANAGEMENT SYSTEM
+## 🚀 Featured Projects
 
-🔗 https://github.com/umesh-nethmina/BMS.git
+### 📝 TO-DO App
+> **Collaborative Group Project** - A task management application
 
-📁 MASTER ROADMAP
+[![View Repository](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/Dula0268/TO-DO-App.git)
 
-🔗 https://github.com/umesh-nethmina/Road-Map.git
+---
 
-📫 Connect With Me
+### 🌱 Smart Environmental Monitoring System
+> Innovative solution for environmental data tracking and analysis
 
+[![View Repository](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/umesh-nethmina/Smart-Environmental-Monitoring-System.git)
 
-🔗 LinkedIn: https://linkedin.com/in/umesh-nethmina-b76582306
+---
 
+### 🍰 Bakery Management System
+> Comprehensive management solution for bakery operations
 
-📧 Email: umeshnethmina118@email.com
+[![View Repository](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/umesh-nethmina/BMS.git)
+
+---
+
+### 🗺️ Master Roadmap
+> Personal learning and development roadmap
+
+[![View Repository](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/umesh-nethmina/Road-Map.git)
+
+---
+
+<div align="center">
+
+## 💬 Let's Connect!
+
+Feel free to reach out for collaborations or just a friendly chat about technology!
+
+**📧 Email:** umeshnethmina118@email.com  
+**💼 LinkedIn:** [umesh-nethmina](https://linkedin.com/in/umesh-nethmina-b76582306)
+
+---
+
+⭐️ *From [umesh-nethmina](https://github.com/umesh-nethmina)*
+
+</div>
 
 
 
