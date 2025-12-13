@@ -1,31 +1,22 @@
-👋 Hi, I'm Umesh Nethmina
-🎓 Undergraduate in Information Technology
-📍 University of Moratuwa, Sri Lanka
-💻 Passionate about Software Development, IoT Systems, and Data Science
-🚀 Currently improving my skills in Java, Python, and Full-Stack Web Development
+ Hi, I'm Umesh Nethmina
+ Undergraduate in Information Technology
+ University of Moratuwa, Sri Lanka
 
-🔧 Technologies & Tools
-Languages: Java, Python, JavaScript
-Web Development: HTML, CSS, React (learning)
-Databases: MySQL, SQLite
-Tools & Platforms: Git, GitHub, VS Code
+My Projects
 
-📌 Featured Projects
-
-📝 TO-DO App (Group Project)
-
-A collaborative full-stack to-do management application featuring authentication, CRUD operations, and a clean UI.
+📁 TO-DO App (Group Project)
 
 🔗 GitHub Repo: https://github.com/Dula0268/TO-DO-App.git
 
-
-🌐 Smart Environmental Monitoring System
+📁 Smart Environmental Monitoring System
 
 🔗 https://github.com/umesh-nethmina/Smart-Environmental-Monitoring-System.git
 
-🍞 BAKERY MANAGEMENT SYSTEM
+📁 BAKERY MANAGEMENT SYSTEM
 
 🔗 https://github.com/umesh-nethmina/BMS.git
+
+📁 MASTER ROADMAP
 
 
 
