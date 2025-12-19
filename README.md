@@ -35,10 +35,12 @@
 
 ---
 
-### 🗺️ Master Roadmap
-> Personal learning and development roadmap
+### 📊 Student Marks Calculator
+> Calculate grades like a pro with clean validation and reporting
 
-[![View Repository](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/umesh-nethmina/Road-Map.git)
+[![View Repository](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/umesh-nethmina/student-marks-calculator.git)
+
+**🎨 Frontend:** HTML, CSS | **⚙️ Backend:** Java / Node.js | **🗄️ Database:** MySQL  
 
 ---
 
