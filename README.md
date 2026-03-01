@@ -28,22 +28,6 @@
 
 ---
 
-### 🍰 Bakery Management System
-> Comprehensive management solution for bakery operations
-
-[![View Repository](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/umesh-nethmina/BMS.git)
-
----
-
-### 📊 Student Marks Calculator
-> Calculate grades like a pro with clean validation and reporting
-
-[![View Repository](https://img.shields.io/badge/View_Repo-181717?style=flat&logo=github&logoColor=white)](https://github.com/umesh-nethmina/student-marks-calculator.git)
-
-**🎨 Frontend:** HTML, CSS | **⚙️ Backend:** Java / Node.js | **🗄️ Database:** MySQL  
-
----
-
 ⭐️ *From [umesh-nethmina](https://github.com/umesh-nethmina)*
 
 </div>
