@@ -1,19 +1,19 @@
-import Hero from '@/components/sections/Hero';
-import About from '@/components/sections/About';
-import Skills from '@/components/sections/Skills';
-import Timeline from '@/components/sections/Timeline';
-import Projects from '@/components/sections/Projects';
-import Contact from '@/components/sections/Contact';
+import { AboutSection } from '@/components/sections/AboutSection';
+import { ContactSection } from '@/components/sections/ContactSection';
+import { ExperienceSection } from '@/components/sections/ExperienceSection';
+import { HeroSection } from '@/components/sections/HeroSection';
+import { ProjectsSection } from '@/components/sections/ProjectsSection';
+import { SkillsSection } from '@/components/sections/SkillsSection';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex flex-col w-full overflow-hidden">
-      <Hero />
-      <About />
-      <Skills />
-      <Timeline />
-      <Projects />
-      <Contact />
-    </div>
+    <>
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <ProjectsSection compact />
+      <ContactSection />
+    </>
   );
 }

@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f3ea;
+  --background-strong: #efe3ce;
+  --surface: rgba(255, 255, 255, 0.74);
+  --surface-strong: #fff8ed;
+  --foreground: #1f1a16;
+  --muted: #65584c;
+  --border: rgba(90, 70, 47, 0.14);
+  --accent: #c9652c;
+  --accent-strong: #0f766e;
+}
+
+.dark {
+  --background: #12110f;
+  --background-strong: #1d1915;
+  --surface: rgba(30, 25, 21, 0.78);
+  --surface-strong: #201b17;
+  --foreground: #f5efe7;
+  --muted: #c2b6a9;
+  --border: rgba(244, 226, 195, 0.1);
+  --accent: #f59e0b;
+  --accent-strong: #2dd4bf;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(201, 101, 44, 0.14), transparent 34%),
+    radial-gradient(circle at right 20%, rgba(15, 118, 110, 0.12), transparent 28%),
+    linear-gradient(180deg, var(--background-strong) 0%, var(--background) 22%, var(--background) 100%);
+  color: var(--foreground);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 32px 32px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), transparent 95%);
+  opacity: 0.28;
+}
+
+.dark body::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+}
+
+::selection {
+  background: rgba(201, 101, 44, 0.22);
+}
+
+a,
+button,
+input,
+textarea {
+  transition-property: color, background-color, border-color, opacity, transform, box-shadow;
+  transition-duration: 180ms;
+}

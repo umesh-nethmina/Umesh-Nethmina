@@ -1,15 +1,23 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
+import { Manrope, Space_Grotesk } from 'next/font/google';
+import '../styles/globals.css';
 import { ThemeProvider } from '@/components/layout/ThemeProvider';
-import Navbar from '@/components/layout/Navbar';
+import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
-const inter = Inter({ subsets: ['latin'] });
+const manrope = Manrope({
+  subsets: ['latin'],
+  variable: '--font-manrope',
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-space-grotesk',
+});
 
 export const metadata: Metadata = {
-  title: 'Umesh Nethmina | Software Engineer',
-  description: 'Full Stack Developer portfolio from Sri Lanka. Modern, performant, and scalable web solutions.',
+  title: 'Umesh Nethmina | Portfolio',
+  description: 'A Next.js portfolio for Umesh Nethmina featuring projects, writing, and contact details.',
 };
 
 export default function RootLayout({
@@ -19,10 +27,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-50 transition-colors duration-300`}>
+      <body
+        className={`${manrope.variable} ${spaceGrotesk.variable} bg-[var(--background)] text-[var(--foreground)] antialiased`}
+      >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col min-h-screen">
-            <Navbar />
+            <Header />
             <main className="flex-grow">{children}</main>
             <Footer />
           </div>
