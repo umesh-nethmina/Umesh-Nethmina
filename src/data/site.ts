@@ -3,17 +3,18 @@ import type { BlogPost, NavLink, SocialLink } from '@/types';
 export const siteConfig = {
   name: 'Umesh Nethmina',
   shortName: 'UN',
-  role: 'Software Engineer and Full Stack Developer',
+  role: 'Full Stack Developer',
   location: 'Colombo, Sri Lanka',
   email: 'contact@umeshnethmina.com',
   phone: '+94 77 123 4567',
+  resumeUrl: 'https://example.com/resume.pdf',
   availability: 'Available for freelance and product engineering roles',
   intro:
-    'I design and build thoughtful web products with strong frontend systems, maintainable backends, and a bias for clear user experience.',
+    'I build modern web experiences that blend clean frontend architecture, reliable backend systems, and practical product strategy.',
   about:
-    'I am a software engineering student focused on shipping modern full-stack applications. My work spans React, Next.js, Node.js, and databases, with attention to performance, accessibility, and product clarity.',
+    'I am a software engineering student focused on designing and shipping modern full stack applications. My work spans React, Next.js, Node.js, and database systems, with consistent attention to performance and usability.',
   aboutExtended:
-    'I enjoy turning ambiguous requirements into structured experiences, whether that means designing interfaces, building APIs, or tightening engineering workflows.',
+    'I enjoy turning ambiguous requirements into clear product experiences, whether that means shaping interfaces, building APIs, or improving engineering workflows.',
   heroStats: [
     { label: 'Years Building', value: '3+' },
     { label: 'Projects Delivered', value: '12+' },

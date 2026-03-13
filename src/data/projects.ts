@@ -41,6 +41,7 @@ export const projects: ProjectItem[] = [
     tags: ['Next.js', 'Python', 'IoT', 'Charting'],
     githubUrl: 'https://github.com',
     liveUrl: 'https://example.com',
+    featured: true,
   },
   {
     slug: 'health-analytics-dashboard',

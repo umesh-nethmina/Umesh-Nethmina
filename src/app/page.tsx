@@ -1,6 +1,6 @@
 import { AboutSection } from '@/components/sections/AboutSection';
-import { ContactSection } from '@/components/sections/ContactSection';
-import { ExperienceSection } from '@/components/sections/ExperienceSection';
+import { BlogSection } from '@/components/sections/BlogSection';
+import { CollaborationSection } from '@/components/sections/CollaborationSection';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { ProjectsSection } from '@/components/sections/ProjectsSection';
 import { SkillsSection } from '@/components/sections/SkillsSection';
@@ -11,9 +11,9 @@ export default function HomePage() {
       <HeroSection />
       <AboutSection />
       <SkillsSection />
-      <ExperienceSection />
       <ProjectsSection compact />
-      <ContactSection />
+      <BlogSection />
+      <CollaborationSection />
     </>
   );
 }

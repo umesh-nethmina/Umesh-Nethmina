@@ -2,23 +2,28 @@ import type { SkillCategory } from '@/types';
 
 export const skillCategories: SkillCategory[] = [
   {
-    title: 'Frontend Systems',
-    summary: 'Designing polished interfaces with strong component boundaries and performance discipline.',
-    items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    title: 'Programming Languages',
+    summary: 'Strong fundamentals across modern languages used to build robust products.',
+    items: ['TypeScript', 'JavaScript', 'Python', 'Java', 'SQL'],
   },
   {
-    title: 'Backend Delivery',
-    summary: 'Building maintainable APIs and application services with pragmatic data modeling.',
+    title: 'Frontend Development',
+    summary: 'Crafting responsive, accessible interfaces with scalable component architecture.',
+    items: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'HTML/CSS'],
+  },
+  {
+    title: 'Backend Development',
+    summary: 'Designing APIs and service layers with maintainability and reliability in mind.',
     items: ['Node.js', 'Express', 'REST APIs', 'Authentication', 'Validation'],
   },
   {
-    title: 'Data and Storage',
-    summary: 'Working across relational and document data stores depending on product needs.',
-    items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Mongoose', 'SQL'],
+    title: 'Databases',
+    summary: 'Using relational and NoSQL systems based on product needs and scale expectations.',
+    items: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Prisma'],
   },
   {
-    title: 'Tooling and Workflow',
-    summary: 'Improving delivery speed with repeatable workflows and clear engineering standards.',
+    title: 'Tools & Technologies',
+    summary: 'Accelerating delivery through modern tooling, automation, and cloud-first workflows.',
     items: ['Git', 'Docker', 'Vercel', 'Figma', 'CI/CD'],
   },
 ];
