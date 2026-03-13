@@ -6,7 +6,7 @@ export const siteConfig = {
   role: 'Full Stack Developer',
   location: 'Colombo, Sri Lanka',
   email: 'umeshnethmina118@gmail.com',
-  phone: '+94 77 123 4567',
+  phone: '+94 78 134 4490 ',
   resumeUrl: 'https://example.com/resume.pdf',
   availability: 'Available for freelance and product engineering roles',
   intro:
@@ -18,15 +18,14 @@ export const siteConfig = {
   heroStats: [
     { label: 'Years Building', value: '3+' },
     { label: 'Projects Delivered', value: '12+' },
-    { label: 'Primary Stack', value: 'Next.js' },
+    { label: 'Number of blogs', value: '5+' },
   ],
 };
 
 export const aboutPageContent = {
   headerDescription:
     'I am a full stack developer who enjoys turning ideas into useful digital products through clean engineering, thoughtful design, and continuous learning.',
-  profileImage:
-    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1200&auto=format&fit=crop',
+  profileImage: '/images/profile/profile.jpg',
   journeyHeadline:
     'My journey into software started with curiosity and grew through real product work.',
   journeyParagraphs: [
@@ -64,7 +63,7 @@ export const navigationLinks: NavLink[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { name: 'GitHub', url: 'https://github.com/umeshnethmina' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/umeshnethmina' },
+  { name: 'GitHub', url: 'https://github.com/umesh-nethmina' },
+  { name: 'LinkedIn', url: 'http://linkedin.com/in/umesh-nethmina-b76582306' },
   { name: 'Email', url: 'mailto:umeshnethmina118@gmail.com' },
 ];
