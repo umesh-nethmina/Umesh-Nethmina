@@ -33,3 +33,28 @@ npm run dev
 ## Environment
 
 No database is required. The contact form uses email delivery via your local email app (`mailto`).
+
+## Edit Profile Content
+
+Update your portfolio content from these files:
+
+- `src/data/site.ts`
+	- Name, role, email, phone, resume URL, hero intro
+	- Navigation links and social links
+	- About page intro text, profile image URL, journey paragraphs, interests
+- `src/data/skills.ts`
+	- Skills categories and items
+- `src/data/education.ts`
+	- Education timeline entries and achievements
+- `src/data/experience.ts`
+	- Experience/learning timeline entries and achievements
+- `src/data/projects.ts`
+	- Project cards, categories, tech tags, links, and detailed project content
+- `src/data/blog.ts`
+	- Blog cards, topics, tags, and full article sections
+
+After updating content:
+
+```bash
+npm run dev
+```

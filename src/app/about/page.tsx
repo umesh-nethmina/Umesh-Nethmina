@@ -1,30 +1,18 @@
 import Image from 'next/image';
 import { BookOpen, Code2, Cpu, GitBranch, Lightbulb, Rocket } from 'lucide-react';
 
-import { siteConfig } from '@/data/site';
+import { aboutPageContent, siteConfig } from '@/data/site';
 import { skillCategories } from '@/data/skills';
 import { education } from '@/data/education';
 import { experience } from '@/data/experience';
 import { Button } from '@/components/ui/Button';
 
 export default function AboutPage() {
-  const interests = [
-    {
-      title: 'Technology Exploration',
-      description: 'Experimenting with modern frameworks, developer tools, and product-focused engineering patterns.',
-      icon: Cpu,
-    },
-    {
-      title: 'Open Source Learning',
-      description: 'Studying open-source projects to improve architecture decisions and coding standards.',
-      icon: GitBranch,
-    },
-    {
-      title: 'Software Engineering Reading',
-      description: 'Reading articles and books about system design, frontend architecture, and team productivity.',
-      icon: BookOpen,
-    },
-  ];
+  const iconMap = {
+    cpu: Cpu,
+    git: GitBranch,
+    book: BookOpen,
+  } as const;
 
   return (
     <div className="space-y-16 px-4 py-16 sm:px-6 lg:px-8 lg:space-y-24 lg:py-24">
@@ -32,8 +20,7 @@ export default function AboutPage() {
         <p className="text-sm font-semibold uppercase tracking-[0.32em] text-[color:var(--accent)]">About</p>
         <h1 className="mt-4 text-5xl font-black tracking-[-0.04em] text-[var(--foreground)] sm:text-6xl">About Me</h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-[var(--muted)]">
-          I am a full stack developer who enjoys turning ideas into useful digital products through clean engineering,
-          thoughtful design, and continuous learning.
+          {aboutPageContent.headerDescription}
         </p>
       </section>
 
@@ -41,7 +28,7 @@ export default function AboutPage() {
         <div className="relative overflow-hidden rounded-[2.2rem] border border-[var(--border)] bg-[var(--surface)] p-4 backdrop-blur-xl">
           <div className="relative h-[28rem] overflow-hidden rounded-[1.8rem]">
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1200&auto=format&fit=crop"
+              src={aboutPageContent.profileImage}
               alt="Developer portrait"
               fill
               sizes="(max-width: 1024px) 100vw, 40vw"
@@ -52,22 +39,11 @@ export default function AboutPage() {
 
         <div className="space-y-6 text-lg leading-8 text-[var(--muted)]">
           <h2 className="text-4xl font-black tracking-[-0.03em] text-[var(--foreground)] sm:text-5xl">
-            My journey into software started with curiosity and grew through real product work.
+            {aboutPageContent.journeyHeadline}
           </h2>
-          <p>
-            I started learning programming by building small personal projects and experimenting with frontend
-            interfaces. That process taught me how code can solve practical problems and create meaningful user
-            experiences.
-          </p>
-          <p>
-            Over time, I moved from basic experiments to full stack applications, combining interface design, API
-            development, and deployment workflows. I enjoy taking an idea from planning to production with clarity and
-            structure.
-          </p>
-          <p>
-            Today, I focus on building software that is reliable, easy to use, and maintainable for teams. I am
-            especially motivated by product challenges where engineering quality and user value need to move together.
-          </p>
+          {aboutPageContent.journeyParagraphs.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
           <div className="pt-2">
             <Button href="/contact">Let&apos;s Collaborate</Button>
           </div>
@@ -173,18 +149,22 @@ export default function AboutPage() {
         </div>
 
         <div className="grid gap-6 md:grid-cols-3">
-          {interests.map((interest) => (
-            <article key={interest.title} className="rounded-[2rem] border border-[var(--border)] bg-[var(--surface)] p-6 backdrop-blur-xl">
-              <interest.icon className="h-7 w-7 text-[color:var(--accent)]" />
-              <h3 className="mt-4 text-2xl font-bold text-[var(--foreground)]">{interest.title}</h3>
-              <p className="mt-3 text-sm leading-7 text-[var(--muted)]">{interest.description}</p>
-            </article>
-          ))}
+          {aboutPageContent.interests.map((interest) => {
+            const Icon = iconMap[interest.icon as keyof typeof iconMap] ?? Cpu;
+
+            return (
+              <article key={interest.title} className="rounded-[2rem] border border-[var(--border)] bg-[var(--surface)] p-6 backdrop-blur-xl">
+                <Icon className="h-7 w-7 text-[color:var(--accent)]" />
+                <h3 className="mt-4 text-2xl font-bold text-[var(--foreground)]">{interest.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-[var(--muted)]">{interest.description}</p>
+              </article>
+            );
+          })}
         </div>
 
         <div className="rounded-[2rem] border border-[var(--border)] bg-[var(--surface)] p-8 backdrop-blur-xl">
           <p className="text-sm leading-7 text-[var(--muted)]">
-            I enjoy blending engineering discipline with creativity to build software that solves real-world problems.
+            {aboutPageContent.closingLine}
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <Button href={siteConfig.resumeUrl} target="_blank" rel="noreferrer" variant="secondary">

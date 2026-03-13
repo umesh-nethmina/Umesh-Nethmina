@@ -5,7 +5,7 @@ export const siteConfig = {
   shortName: 'UN',
   role: 'Full Stack Developer',
   location: 'Colombo, Sri Lanka',
-  email: 'contact@umeshnethmina.com',
+  email: 'umeshnethmina118@gmail.com',
   phone: '+94 77 123 4567',
   resumeUrl: 'https://example.com/resume.pdf',
   availability: 'Available for freelance and product engineering roles',
@@ -22,6 +22,39 @@ export const siteConfig = {
   ],
 };
 
+export const aboutPageContent = {
+  headerDescription:
+    'I am a full stack developer who enjoys turning ideas into useful digital products through clean engineering, thoughtful design, and continuous learning.',
+  profileImage:
+    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1200&auto=format&fit=crop',
+  journeyHeadline:
+    'My journey into software started with curiosity and grew through real product work.',
+  journeyParagraphs: [
+    'I started learning programming by building small personal projects and experimenting with frontend interfaces. That process taught me how code can solve practical problems and create meaningful user experiences.',
+    'Over time, I moved from basic experiments to full stack applications, combining interface design, API development, and deployment workflows. I enjoy taking an idea from planning to production with clarity and structure.',
+    'Today, I focus on building software that is reliable, easy to use, and maintainable for teams. I am especially motivated by product challenges where engineering quality and user value need to move together.',
+  ],
+  interests: [
+    {
+      title: 'Technology Exploration',
+      description: 'Experimenting with modern frameworks, developer tools, and product-focused engineering patterns.',
+      icon: 'cpu',
+    },
+    {
+      title: 'Open Source Learning',
+      description: 'Studying open-source projects to improve architecture decisions and coding standards.',
+      icon: 'git',
+    },
+    {
+      title: 'Software Engineering Reading',
+      description: 'Reading articles and books about system design, frontend architecture, and team productivity.',
+      icon: 'book',
+    },
+  ],
+  closingLine:
+    'I enjoy blending engineering discipline with creativity to build software that solves real-world problems.',
+};
+
 export const navigationLinks: NavLink[] = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
@@ -33,5 +66,5 @@ export const navigationLinks: NavLink[] = [
 export const socialLinks: SocialLink[] = [
   { name: 'GitHub', url: 'https://github.com/umeshnethmina' },
   { name: 'LinkedIn', url: 'https://linkedin.com/in/umeshnethmina' },
-  { name: 'Email', url: 'mailto:contact@umeshnethmina.com' },
+  { name: 'Email', url: 'mailto:umeshnethmina118@gmail.com' },
 ];
