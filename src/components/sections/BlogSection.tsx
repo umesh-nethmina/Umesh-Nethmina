@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
-import { blogPosts } from '@/data/site';
+import { blogPosts } from '@/data/blog';
 import { Button } from '@/components/ui/Button';
 
 export function BlogSection() {
@@ -26,20 +27,45 @@ export function BlogSection() {
           {featuredPosts.map((post) => (
             <article
               key={post.slug}
-              className="group rounded-[2rem] border border-[var(--border)] bg-[var(--surface)] p-6 backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_45px_rgba(15,23,42,0.14)]"
+              className="group overflow-hidden rounded-[2rem] border border-[var(--border)] bg-[var(--surface)] backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_45px_rgba(15,23,42,0.14)]"
             >
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[color:var(--accent)]">{post.category}</p>
-              <h3 className="mt-4 text-2xl font-bold text-[var(--foreground)]">{post.title}</h3>
-              <p className="mt-4 text-sm leading-7 text-[var(--muted)]">{post.excerpt}</p>
-              <p className="mt-6 text-xs uppercase tracking-[0.2em] text-[var(--muted)]">
-                {post.publishedAt} • {post.readTime}
-              </p>
-              <Link
-                href="/blog"
-                className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[var(--foreground)] hover:text-[color:var(--accent)]"
-              >
-                Read More <ArrowRight className="h-4 w-4" />
-              </Link>
+              <div className="relative h-44 overflow-hidden">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 33vw"
+                  className="object-cover transition duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/15 to-transparent" />
+                <p className="absolute bottom-4 left-4 rounded-full bg-black/55 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.22em] text-white/90">
+                  {post.category}
+                </p>
+              </div>
+
+              <div className="space-y-4 p-6">
+                <h3 className="text-2xl font-bold text-[var(--foreground)]">{post.title}</h3>
+                <p className="text-sm leading-7 text-[var(--muted)]">{post.excerpt}</p>
+                <div className="flex flex-wrap gap-2">
+                  {post.tags.slice(0, 2).map((tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full border border-[var(--border)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.08em] text-[var(--muted)]"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <p className="text-xs uppercase tracking-[0.2em] text-[var(--muted)]">
+                  {post.publishedAt} • {post.readTime}
+                </p>
+                <Link
+                  href={`/blog/${post.slug}`}
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--foreground)] hover:text-[color:var(--accent)]"
+                >
+                  Read More <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
             </article>
           ))}
         </div>
