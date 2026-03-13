@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Download, Github, Linkedin, Mail, Sparkles } from 'lucide-react';
 
 import { siteConfig, socialLinks } from '@/data/site';
@@ -76,18 +77,18 @@ export function HeroSection() {
         </div>
 
         <div className="space-y-5">
-          <article className="relative overflow-hidden rounded-[2.2rem] border border-[var(--border)] bg-[var(--surface)] p-6 backdrop-blur-xl">
-            <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-br from-[color:var(--accent)]/25 to-transparent" />
-            <div className="relative grid gap-6 sm:grid-cols-[1fr_auto] sm:items-center lg:grid-cols-1 lg:items-start">
-              <div className="space-y-2">
-                <p className="text-xs font-semibold uppercase tracking-[0.26em] text-[var(--muted)]">Developer Snapshot</p>
-                <p className="text-base leading-7 text-[var(--muted)]">
-                  Building performant full stack applications with clean architecture and clear user flows.
-                </p>
-              </div>
-              <div className="mx-auto flex h-44 w-44 items-center justify-center rounded-[2rem] border border-[var(--border)] bg-[var(--surface-strong)] shadow-[0_20px_45px_rgba(15,23,42,0.16)] animate-float-slow">
-                <div className="flex h-28 w-28 items-center justify-center rounded-full border border-[var(--border)] bg-gradient-to-br from-[color:var(--accent)]/25 via-white/75 to-[color:var(--accent-strong)]/25 text-2xl font-black tracking-[0.2em] text-[var(--foreground)]">
-                  {siteConfig.shortName}
+          <article className="relative overflow-hidden rounded-[2.2rem] border border-[var(--border)] p-6 backdrop-blur-xl">
+            <div className="relative flex justify-center">
+              <div className="mx-auto h-60 w-60 rounded-[2rem] p-2 animate-float-slow sm:h-64 sm:w-64">
+                <div className="relative h-full w-full overflow-hidden rounded-[1.35rem]">
+                  <Image
+                    src={siteConfig.profileImage}
+                    alt={`${siteConfig.name} profile photo`}
+                    fill
+                    sizes="(min-width: 640px) 256px, 240px"
+                    className="object-cover object-center scale-[1.04] contrast-110 saturate-110"
+                    priority
+                  />
                 </div>
               </div>
             </div>

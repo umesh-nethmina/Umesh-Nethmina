@@ -3,6 +3,7 @@ import type { NavLink, SocialLink } from '@/types';
 export const siteConfig = {
   name: 'Umesh Nethmina',
   shortName: 'UN',
+  profileImage: '/images/profile/profile.jpg',
   role: 'Full Stack Developer',
   location: 'Colombo, Sri Lanka',
   email: 'umeshnethmina118@gmail.com',
