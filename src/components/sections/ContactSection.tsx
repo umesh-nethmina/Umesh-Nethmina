@@ -13,7 +13,6 @@ export function ContactSection() {
     email: '',
     message: '',
   });
-  const [submitting, setSubmitting] = useState(false);
   const [feedback, setFeedback] = useState<string | null>(null);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -21,30 +20,22 @@ export function ContactSection() {
     setFormData((current) => ({ ...current, [name]: value }));
   };
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setSubmitting(true);
     setFeedback(null);
 
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
+      const subject = encodeURIComponent(`Portfolio inquiry from ${formData.name}`);
+      const body = encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
+      );
 
-      const payload = await response.json();
-
-      if (!response.ok) {
-        throw new Error(payload.error ?? 'Unable to send message right now.');
-      }
+      window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${body}`;
 
       setFormData({ name: '', email: '', message: '' });
-      setFeedback('Message sent successfully.');
+      setFeedback('Your email app should open now.');
     } catch (error) {
       setFeedback(error instanceof Error ? error.message : 'Something went wrong.');
-    } finally {
-      setSubmitting(false);
     }
   };
 
@@ -108,9 +99,7 @@ export function ContactSection() {
               />
             </label>
             {feedback ? <p className="text-sm text-[var(--muted)]">{feedback}</p> : null}
-            <Button type="submit" disabled={submitting}>
-              {submitting ? 'Sending...' : 'Send message'}
-            </Button>
+            <Button type="submit">Send message</Button>
           </form>
         </Card>
       </div>
