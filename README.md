@@ -1,6 +1,15 @@
 <h1 align="center">Hi there, I'm Umesh Nethmina! 👋</h1>
 
-<h3 align="center">A passionate developer 🚀</h3>
+<h3 align="center">BSc (Hons) IT Undergraduate | Full-Stack Developer | IoT Enthusiast</h3>
+
+<p align="center">
+  <a href="http://linkedin.com/in/umesh-nethmina-b76582306" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:umeshnethmina118@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=umesh-nethmina&label=Profile%20views&color=0e75b6&style=flat" alt="umesh-nethmina" />
@@ -12,28 +21,39 @@
 ---
 
 ### 👨‍💻 About Me
-
-- 🔭 I’m currently working on **[Your Current Project]**
-- 🌱 I’m currently learning **[New Frameworks or Languages]**
-- 👯 I’m looking to collaborate on **[Open Source / Cool Ideas]**
-- 🤔 I’m looking for help with **[Specific Tech Stacks]**
-- 💬 Ask me about **[Your Expertise]**
-- 📫 How to reach me: **[Your Email / LinkedIn]**
-- 😄 Pronouns: **[Your Pronouns]**
-- ⚡ Fun fact: **[A cool fact about yourself]**
+- 🎓 I'm currently a **BSc (Honours) in Information Technology** Undergraduate.
+- 💻 Passionate about software development, full-stack technologies, and hardware/IoT integrations.
 
 ---
 
-### 🛠️ Languages and Tools
+### 🚀 Projects
+
+#### 🏫 Smart School System (Current)
+A full-stack platform that digitizes school operations (classes, assignments, exams, attendance, and performance tracking) with role-based access for Admins, Teachers, Students, and Parents.
+- **Tech:** Spring Boot, React, JWT
+- **Features:** Analytics, smart learning engine for personalized recommendations, scalable system design, secure authentication.
+
+#### 🌍 Smart Solar-Powered Environmental Monitoring System
+An IoT-based system for off-grid environmental monitoring.
+- **Hardware:** ESP32, GSM (SIM900A), multiple sensors, solar panel, Li-ion battery.
+- **Features:** Real-time data collection (air quality, temp, humidity, CO₂, pressure), ThingSpeak cloud upload, offline storage, SMS alerts.
+
+#### 🦖 Chrome Dinosaur Game Clone
+A 2D endless runner game inspired by the Google Chrome Dino Game.
+- **Tech:** C++, OpenGL (FreeGLUT)
+- **Features:** Dodge obstacles, progressive game speed difficulty, high-score tracking.
+
+---
+
+### 🛠️ Languages & Tools
 
 <p align="left">
-  <!-- Feel free to update these icons to match your tech stack -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
+  <a href="https://spring.io/projects/spring-boot" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="spring boot" width="40" height="40"/> </a>
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
+  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="c++" width="40" height="40"/> </a>
+  <a href="https://github.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/> </a>
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/> </a>
 </p>
 
 ---
@@ -41,10 +61,14 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=umesh-nethmina&show_icons=true&theme=radical" alt="umesh-nethmina's GitHub Stats" />
+  <a href="https://github.com/umesh-nethmina">
+    <img src="https://github-readme-stats.vercel.app/api?username=umesh-nethmina&show_icons=true&theme=radical" alt="umesh-nethmina's GitHub Stats" />
+  </a>
 </p>
 <p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=umesh-nethmina&theme=radical" alt="umesh-nethmina's GitHub Streak" />
+  <a href="https://github.com/umesh-nethmina">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=umesh-nethmina&theme=radical" alt="umesh-nethmina's GitHub Streak" />
+  </a>
 </p>
 
 ---
