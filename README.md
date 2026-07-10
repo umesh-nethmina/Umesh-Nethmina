@@ -28,20 +28,9 @@
 
 ### 🚀 Projects
 
-#### 🏫 Smart School System (Current)
-A full-stack platform that digitizes school operations (classes, assignments, exams, attendance, and performance tracking) with role-based access for Admins, Teachers, Students, and Parents.
-- **Tech:** Spring Boot, React, JWT
-- **Features:** Analytics, smart learning engine for personalized recommendations, scalable system design, secure authentication.
 
-#### 🌍 Smart Solar-Powered Environmental Monitoring System
-An IoT-based system for off-grid environmental monitoring.
-- **Hardware:** ESP32, GSM (SIM900A), multiple sensors, solar panel, Li-ion battery.
-- **Features:** Real-time data collection (air quality, temp, humidity, CO₂, pressure), ThingSpeak cloud upload, offline storage, SMS alerts.
 
-#### 🦖 Chrome Dinosaur Game Clone
-A 2D endless runner game inspired by the Google Chrome Dino Game.
-- **Tech:** C++, OpenGL (FreeGLUT)
-- **Features:** Dodge obstacles, progressive game speed difficulty, high-score tracking.
+
 
 ---
 
