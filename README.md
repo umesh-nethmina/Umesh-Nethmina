@@ -1,67 +1,124 @@
-<h1 align="center">Hi there, I'm Umesh Nethmina! 👋</h1>
 
-<h3 align="center">BSc (Hons) IT Undergraduate | Full-Stack Developer | IoT Enthusiast</h3>
+<h1 align="center">Hey, I'm Umesh Nethmina 👋</h1>
+
+<h3 align="center">
+  Information Technology Undergraduate | Aspiring Software Engineer
+</h3>
 
 <p align="center">
-  <a href="http://linkedin.com/in/umesh-nethmina-b76582306" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <b>University of Moratuwa, Sri Lanka</b>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/umesh-nethmina-b76582306/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:umeshnethmina118@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:umeshnethmina118@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/umesh-nethmina">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=umesh-nethmina&label=Profile%20views&color=0e75b6&style=flat" alt="umesh-nethmina" />
-  <a href="https://github.com/umesh-nethmina?tab=followers">
-    <img src="https://img.shields.io/github/followers/umesh-nethmina?label=Followers&style=social" alt="Followers" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=umesh-nethmina&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
 
 ---
 
-### 👨‍💻 About Me
-- 🎓 I'm currently a **BSc (Honours) in Information Technology** Undergraduate.
-- 💻 Passionate about software development, full-stack technologies, and hardware/IoT integrations.
+## 👨‍💻 About Me
+
+I'm an Information Technology undergraduate at the **University of Moratuwa**, passionate about software engineering, full-stack development, and exploring how technology can solve real-world problems.
+
+- 🎓 BSc (Hons) in Information Technology Undergraduate.
+- 💻 Interested in Full-Stack Development and Software Engineering.
+- 🔧 Interested in IoT and hardware-software integration.
+- 🤝 Experienced in collaborative software development and team projects.
+- 🌱 Always learning and exploring new technologies.
+- 🎯 Currently seeking a **Software Engineering Internship** to develop my skills and gain industry experience.
 
 ---
 
-### 🚀 Projects
+## 🚀 Featured Project
 
+### 🏨 PrimeStay – Hospitality Booking Platform
 
+A full-stack, multi-tenant hospitality booking platform developed with **Team b4code** as part of our second-year Software Engineering group project.
 
+**My Contributions:**
+- Guest Booking and Reservations
+- Guest-Property Messaging
+- Reviews and Ratings
 
+**Technologies:** Next.js, React, TypeScript, Java 21, Spring Boot, PostgreSQL, Redis, Docker, Kubernetes and AWS.
+
+**Project Repositories:**
+
+- [Frontend Repository](https://lnkd.in/garbV9Rf)
+- [Backend Repository](https://lnkd.in/gTnbaACw)
 
 ---
 
-### 🛠️ Languages & Tools
+## 🛠️ Technologies & Tools
+
+### Programming Languages & Frontend
 
 <p align="left">
-  <a href="https://spring.io/projects/spring-boot" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="spring boot" width="40" height="40"/> </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="c++" width="40" height="40"/> </a>
-  <a href="https://github.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/> </a>
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/> </a>
+  <img src="https://skillicons.dev/icons?i=java,cpp,js,ts,react,nextjs,tailwind" alt="Programming and Frontend Skills"/>
+</p>
+
+### Backend & Database
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=spring,postgres,redis" alt="Backend and Database Skills"/>
+</p>
+
+### Cloud, DevOps & Development Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,git,github,vscode,figma" alt="Development Tools"/>
 </p>
 
 ---
 
-### 📊 GitHub Stats
+## 💡 Areas of Interest
+
+- Full-Stack Software Development
+- Backend Engineering
+- Software Architecture and Design
+- Database Management
+- Cloud Computing and DevOps
+- Internet of Things (IoT)
+- Problem Solving
+
+---
+
+## 📊 GitHub Statistics
 
 <p align="center">
-  <a href="https://github.com/umesh-nethmina">
-    <img src="https://github-readme-stats.vercel.app/api?username=umesh-nethmina&show_icons=true&theme=radical" alt="umesh-nethmina's GitHub Stats" />
-  </a>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=umesh-nethmina&show_icons=true&rank_icon=github&hide_border=true&theme=tokyonight" alt="GitHub Statistics"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umesh-nethmina&layout=compact&hide_border=true&theme=tokyonight" alt="Most Used Languages"/>
 </p>
+
 <p align="center">
-  <a href="https://github.com/umesh-nethmina">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=umesh-nethmina&theme=radical" alt="umesh-nethmina's GitHub Streak" />
-  </a>
+  <img width="60%" src="https://streak-stats.demolab.com?user=umesh-nethmina&theme=tokyonight&hide_border=true" alt="GitHub Contribution Streak"/>
 </p>
 
 ---
 
+## 📫 Let's Connect
+
+I'm always interested in connecting with developers, learning from others, and exploring new opportunities.
+
 <p align="center">
-  <i>Let's connect and build something awesome together! 🌟</i>
+  <a href="mailto:umeshnethmina118@gmail.com">📧 Email Me</a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/umesh-nethmina-b76582306/">💼 LinkedIn</a>
+  &nbsp; | &nbsp;
+  <a href="https://github.com/umesh-nethmina">💻 GitHub</a>
+</p>
+
+<p align="center">
+  <i>"Building, learning, and improving — one project at a time. 🚀"</i>
 </p>
